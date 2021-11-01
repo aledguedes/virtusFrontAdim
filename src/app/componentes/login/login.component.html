@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="row box">
+        <img class="img_logo" src="assets/doar.svg" alt="" srcset="">
+        <form>
+            <div class="order">
+                <i class="far fa-user"></i>
+                <input [(ngModel)]="usuario.login" type="username" name="login" placeholder="UserName">
+                <i class="fas fa-unlock-alt"></i>
+                <input [(ngModel)]="usuario.senha" type="password" name="senha" placeholder="Password">
+                <input (click)="efetuarLogin()" type="submit" name="acao" placeholder="Enviar...">
+            </div>
+        </form>
+    </div>
+</div>
+
